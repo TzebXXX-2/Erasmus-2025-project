@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+        font-family: monospace;
+        font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    z-index: 100;
+}
+
+header h1::before{
+    content: "🌹";
+}
+header h1::after{
+    content: "🌹";
+}
+main{
+    position: relative;
+    top: 150px;
+}
+main,
+.hero{
+    width: 100%;
+    padding: 20px;
+}
+.hero figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.hero .text-hero{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 60%;
+    margin-top: 15px;
+    text-align: center;
+    color: yellowgreen;
+    background-color: black;
+    padding: 10px;
+}
+
+.blog{
+    width: 100%;
+    background: grey;
+    padding: 1rem;
+    color:greenyellow
+}
+.blog article{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    
+}
+.coding-languages{
+    width: 100%;
+    background: black;
+    color:white;
+    padding: 1rem;
+
+
+}
+.list-coding-languages{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100%;
+    border-radius: 12px;
+}
+.list-coding-languages h3{
+    position: sticky;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    top: 120px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    top: 120px;
+}
+
+
+
